@@ -1,17 +1,20 @@
 {
-    "version": "2.6.2",
-    "url":
-        "https://www.fenrir-inc.com/services/download.php?file=FenrirFS-setup.exe",
+    "version": "2.6.6",
+    "url": "https://www.fenrir-inc.com/services/download.php?file=FenrirFS-setup.exe",
     "homepage": "https://www.fenrir-inc.com/jp/fenrirfs/",
     "checkver": {
         "url": "https://www.fenrir-inc.com/jp/fenrirfs/note.html",
         "re": "FenrirFS\\s([\\d.]+)"
     },
     "autoupdate": {
-        "url":
-            "https://www.fenrir-inc.com/services/download.php?file=FenrirFS-setup.exe"
+        "url": "https://www.fenrir-inc.com/services/download.php?file=FenrirFS-setup.exe"
     },
-    "shortcuts": [["FenrirFS.exe", "FenrirFS"]],
+    "shortcuts": [
+        [
+            "FenrirFS.exe",
+            "FenrirFS"
+        ]
+    ],
     "installer": {
         "file": "FenrirFS-setup.exe",
         "args": [
@@ -25,6 +28,10 @@
     },
     "uninstaller": {
         "file": "unins000.exe",
-        "args": ["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART"]
+        "args": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ]
     }
 }
